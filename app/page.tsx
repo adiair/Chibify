@@ -179,7 +179,7 @@ export default function AIImageGenerator() {
 
         {/* Tips Section */}
         <Card className="mt-8">
-          <CardTitle className="text-lg ml-4">🎉 Chibi Creation Tips</CardTitle>
+          <CardTitle className="text-lg ml-5">🎉 Chibi Creation Tips</CardTitle>
           <CardContent>
             <div className="grid gap-2 text-sm text-muted-foreground">
               <p>• Describe any object, person, or scene - we'll automatically make it chibi!</p>

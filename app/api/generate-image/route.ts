@@ -11,7 +11,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Prompt is required" }, { status: 400 })
     }
 
-    const chibiPrompt = `${prompt}, chibi style, cute kawaii character, big eyes, small body proportions, adorable, anime chibi art style, pastel colors, soft lighting, high quality digital art`
+    const chibiPrompt = `${prompt}, chibi style, cute kawaii character, big eyes, small body proportions, 
+    adorable, anime chibi art style, pastel colors, soft lighting, high quality digital art`
 
     const response = await fetch(HF_MODEL_URL, {
       method: "POST",
