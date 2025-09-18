@@ -21,18 +21,12 @@ It leverages the **Hugging Face API** to create unique images based on text desc
 
 ---
 
-## 📸 Screenshots
-*(Add screenshots of your app UI and generated chibi images here)*  
-
----
-
 ## ⚙️ Installation & Setup
 1. Clone the repository:
-   ```bash
-
-   git clone https://github.com/your-username/chibify.git
-   cd chibify
-   ```
+```bash
+git clone https://github.com/your-username/chibify.git
+cd chibify
+```
 2. Install dependencies:
 ```
 npm install
@@ -52,36 +46,22 @@ npm run dev
  in your browser.
 
 🌐 Live Demo
-
 🔗 Chibify App
 
 📌 Future Enhancements
-
 🔒 Add user authentication for personalized daily limits.
-
 📂 Save and manage generated artworks in user profiles.
-
 🎭 More customization options (expressions, poses, styles).
 
 🤝 Contributing
-
 Contributions are welcome!
-
 Fork the repo
-
 Create a new branch (feature-branch)
-
 Commit your changes
-
 Push and create a pull request
 
 📜 License
-
 This project is licensed under the MIT License.
 
 👨‍💻 Author
-
-Developed by Aditya Kokashe
- ✨
-   git clone https://github.com/your-username/chibify.git
-   cd chibify
+Developed by adiair ✨
