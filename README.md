@@ -49,15 +49,23 @@ npm run dev
 🔗 Chibify App
 
 📌 Future Enhancements
+
 🔒 Add user authentication for personalized daily limits.
+
 📂 Save and manage generated artworks in user profiles.
+
 🎭 More customization options (expressions, poses, styles).
 
 🤝 Contributing
+
 Contributions are welcome!
+
 Fork the repo
+
 Create a new branch (feature-branch)
+
 Commit your changes
+
 Push and create a pull request
 
 📜 License
@@ -65,3 +73,4 @@ This project is licensed under the MIT License.
 
 👨‍💻 Author
 Developed by adiair ✨
+
