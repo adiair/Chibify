@@ -94,21 +94,9 @@ export default function AIImageGenerator() {
             <Sparkles className="h-5 w-5 text-primary" />
             <span className="font-semibold text-lg">Chibify</span>
           </div>
-          <nav className="hidden md:flex items-center gap-6 text-sm">
-            <a href="#" className="text-muted-foreground hover:text-foreground">
-              Home
-            </a>
-            <a href="#create" className="text-muted-foreground hover:text-foreground">
-              Create
-            </a>
-            <a href="#tips" className="text-muted-foreground hover:text-foreground">
-              Tips
-            </a>
-          </nav>
+          
           <div className="flex items-center gap-2">
-            <Button variant="secondary" size="sm">
-              About
-            </Button>
+            
             <Button size="sm">Try Chibify</Button>
           </div>
         </div>
@@ -236,8 +224,8 @@ export default function AIImageGenerator() {
 
       {/* Add footer with muted surface */}
       <footer className="bg-card">
-        <div className="container mx-auto max-w-5xl px-4 py-8">
-          <div className="mx-auto h-px w-24 bg-foreground/20 rounded-full" aria-hidden="true" />
+        <div className="container flex justify-center items-center m-auto max-w-5xl px-4 py-8">
+          Build by <a href="">@adiair</a>
         </div>
       </footer>
     </div>
