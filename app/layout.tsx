@@ -7,9 +7,8 @@ import "./globals.css"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Chibify",
+  description: "generate custom chibies",
 }
 
 export default function RootLayout({
