@@ -1,57 +1,30 @@
-# 🌟 Chibify
+# Hugging Face app
 
-Chibify is an **AI-powered web application** that generates **custom chibi-style artwork** from user prompts.  
-It leverages the **Hugging Face API** to create unique images based on text descriptions, with a daily usage limit.
+*Automatically synced with your [v0.app](https://v0.app) deployments*
 
----
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aditya-kokashes-projects/v0-chibify)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/ldJ267CVWe3)
 
-## 🚀 Features
-- ✨ **Prompt-based generation** → Users can describe characters, objects, or scenes to generate chibi art.  
-- 🎨 **AI-generated chibi artwork** using **Hugging Face API**.  
-- 📅 **Daily image limit** (5+ images per user).  
-- 📱 **Responsive design** → Works seamlessly across devices.  
-- ⚡ **Fast and lightweight** interface built with Next.js.  
+## Overview
 
----
+This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-## 🛠️ Tech Stack
-- **Frontend**: Next.js, React, Tailwind CSS  
-- **API**: Hugging Face API (for image generation)  
-- **Deployment**: Vercel  
+## Deployment
 
----
+Your project is live at:
 
-## ⚙️ Installation & Setup
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/chibify.git
-cd chibify
-```
-2. Install dependencies:
-```
-npm install
-```
+**[https://vercel.com/aditya-kokashes-projects/v0-chibify](https://vercel.com/aditya-kokashes-projects/v0-chibify)**
 
-3. Create a .env.local file in the root directory and add your Hugging Face API key:
-```
-NEXT_PUBLIC_HF_API_KEY=your_api_key_here
-```
+## Build your app
 
-4. Run the development server:
-```
-npm run dev
-```
+Continue building your app on:
 
-5. Open http://localhost:3000
- in your browser.
+**[https://v0.app/chat/projects/ldJ267CVWe3](https://v0.app/chat/projects/ldJ267CVWe3)**
 
-🌐 Live Demo
-https://chibify.vercel.app/
+## How It Works
 
-📜 License
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-Developed by adiair ✨
-
-
+1. Create and modify your project using [v0.app](https://v0.app)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository

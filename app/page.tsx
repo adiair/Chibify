@@ -74,8 +74,48 @@ export default function AIImageGenerator() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div
+      className="min-h-screen bg-background text-foreground flex flex-col"
+      style={{
+        // soft yellows + readable foreground
+        ["--background" as any]: "#FFF8E1", // light muted yellow
+        ["--card" as any]: "#FFFBEB", // slightly deeper yellow for surfaces
+        ["--muted" as any]: "#FEF3C7", // muted blocks
+        ["--foreground" as any]: "#1F2937", // slate-800 for contrast
+        ["--muted-foreground" as any]: "#4B5563", // slate-600
+        ["--primary" as any]: "#F59E0B", // amber-500 accents
+        ["--primary-foreground" as any]: "#1F2937", // dark text on amber
+      }}
+    >
+      {/* Site header with navbar (no gradients, muted surface) */}
+      <header className="bg-card shadow-sm">
+        <div className="container mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Sparkles className="h-5 w-5 text-primary" />
+            <span className="font-semibold text-lg">Chibify</span>
+          </div>
+          <nav className="hidden md:flex items-center gap-6 text-sm">
+            <a href="#" className="text-muted-foreground hover:text-foreground">
+              Home
+            </a>
+            <a href="#create" className="text-muted-foreground hover:text-foreground">
+              Create
+            </a>
+            <a href="#tips" className="text-muted-foreground hover:text-foreground">
+              Tips
+            </a>
+          </nav>
+          <div className="flex items-center gap-2">
+            <Button variant="secondary" size="sm">
+              About
+            </Button>
+            <Button size="sm">Try Chibify</Button>
+          </div>
+        </div>
+      </header>
+
+      {/* Wrap page content in main */}
+      <main id="create" className="container mx-auto px-4 py-8 max-w-5xl flex-1">
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 mb-4">
@@ -89,7 +129,7 @@ export default function AIImageGenerator() {
 
         <div className="grid gap-8 md:grid-cols-2">
           {/* Input Section */}
-          <Card>
+          <Card className="shadow-md border-0">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Sparkles className="h-5 w-5" />
@@ -140,7 +180,7 @@ export default function AIImageGenerator() {
           </Card>
 
           {/* Output Section */}
-          <Card>
+          <Card className="shadow-md border-0">
             <CardHeader>
               <CardTitle>Your Chibi Creation</CardTitle>
               <CardDescription>Your adorable chibi version will appear here</CardDescription>
@@ -178,8 +218,8 @@ export default function AIImageGenerator() {
         </div>
 
         {/* Tips Section */}
-        <Card className="mt-8">
-          <CardTitle className="text-lg ml-5">🎉 Chibi Creation Tips</CardTitle>
+        <Card className="mt-8 shadow-md border-0">
+          <CardTitle className="text-lg ml-4">🎉 Chibi Creation Tips</CardTitle>
           <CardContent>
             <div className="grid gap-2 text-sm text-muted-foreground">
               <p>• Describe any object, person, or scene - we'll automatically make it chibi!</p>
@@ -189,7 +229,17 @@ export default function AIImageGenerator() {
             </div>
           </CardContent>
         </Card>
-      </div>
+
+        {/* Tips Section anchor */}
+        <div id="tips" />
+      </main>
+
+      {/* Add footer with muted surface */}
+      <footer className="bg-card">
+        <div className="container mx-auto max-w-5xl px-4 py-8">
+          <div className="mx-auto h-px w-24 bg-foreground/20 rounded-full" aria-hidden="true" />
+        </div>
+      </footer>
     </div>
   )
 }
