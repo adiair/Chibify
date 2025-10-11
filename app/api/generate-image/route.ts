@@ -1,6 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-const HF_API_TOKEN = "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"
+const HF_API_TOKEN = "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"
 const HF_MODEL_URL = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev"
 
 export async function POST(request: NextRequest) {
