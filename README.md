@@ -4,6 +4,9 @@ Turn your imagination into adorable **chibi-style art** with AI magic ✨
 Live demo → [chibify.vercel.app](https://chibify.vercel.app/)
 
 ---
+<img width="1305" height="737" alt="image" src="https://github.com/user-attachments/assets/50ef86ce-3fd3-4d36-90b2-5b77591366ac" />
+
+---
 
 ## 🚀 About
 
@@ -14,7 +17,7 @@ Live demo → [chibify.vercel.app](https://chibify.vercel.app/)
 ## 🧠 Tech Stack
 
 - **Frontend:** Next.js, TypeScript, Tailwind CSS  
-- **AI Model:** (e.g., OpenAI / Stable Diffusion – replace as applicable)  
+- **AI Model:** Huggingface API key
 - **Deployment:** Vercel  
 
 ---
